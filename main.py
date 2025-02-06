@@ -27,7 +27,7 @@ bf_yesterday_date = date.today() - timedelta(days=2)
 yday_value = df.loc[str(yesterday_date)]["Close"]
 bfyday_value = df.loc[str(bf_yesterday_date)]["Close"]
 
-
+# TODO Update function when API is available
 # stock_data = get_stock(STOCK)['Time Series (Daily)']
 # data_list = [value for (key, value) in data.items()]
 # last_3_days = list(time_series.items())[:3]
